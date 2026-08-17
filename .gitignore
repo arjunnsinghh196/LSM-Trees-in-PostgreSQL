@@ -1,0 +1,19 @@
+# Build artifacts — these should not be committed
+*.o
+*.so
+*.bc
+*.a
+*.dylib
+
+# PGXS build output
+results/
+regression.diffs
+regression.out
+tmp_check/
+log/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
