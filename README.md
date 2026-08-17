@@ -152,20 +152,6 @@ The benefit is deliberately made visible by using many immutable runs and repeat
 
 ---
 
-## Results
-
-Fill in from your own runs.
-
-| Workload | B-tree | LSM3 (no Bloom) | LSM3 + Bloom |
-|---|---|---|---|
-| Bulk insert, 350k rows | — | — | — |
-| Positive point lookups | — | — | — |
-| Negative point lookups (cold) | — | — | — |
-| Negative point lookups (warm) | — | — | — |
-| Range scan | — | — | — |
-
----
-
 ## Repository layout
 
 ```
